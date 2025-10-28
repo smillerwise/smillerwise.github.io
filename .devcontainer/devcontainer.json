@@ -9,6 +9,12 @@
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
     },
+
+    // Add Node 20 here
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+
     "ghcr.io/devcontainers-extra/features/prettier:1": {}
   },
 
